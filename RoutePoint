@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace RoutePoint
+{
+    public class Route
+    {
+        public string PointStart;
+        public string PointEnd;
+        public int Number;
+
+
+        public Route(string a, string b, int n)
+        {
+            PointStart = a;
+            PointEnd = b;
+            Number = n;
+        }
+    }
+}
+using RoutePoint;
+
+            var routes = new Route[3];
+
+            for (int i = 0; i < routes.Length; i++)
+            {
+                Console.WriteLine("Введите маршрут {0}", i);
+                Console.Write("Номер маршрута: ");
+                var Number = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine();
+                Console.Write(" Начальная точка: ");
+                var PointStart = Console.ReadLine();
+                Console.WriteLine();
+                Console.Write(" Конечная точка: ");
+                var PointEnd = Console.ReadLine();
+                routes[i] = new Route(PointStart, PointEnd, Number);
+                Console.WriteLine();
+            }
+
+            while (true)
+            {
+                Console.Write("Введите начальную или конечную точку маршрутка для запроса информации: ");
+                var infoRoutePoint = Convert.ToString(Console.ReadLine());
+                try
+                {
+                    var findRoute = routes.First(x => x.PointStart == infoRoutePoint || x.PointEnd == infoRoutePoint);
+                    Console.WriteLine("Маршрут № {0}. Начальная точка: {1}. Коннечная точка: {2}", findRoute.Number, findRoute.PointStart, findRoute.PointEnd);
+                }
+                catch(InvalidOperationException)
+    {
+
+                    Console.WriteLine("Маршрут по данным точкам не найден");
+                }
+
+
+            }
