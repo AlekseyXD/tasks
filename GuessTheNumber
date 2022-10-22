@@ -1,0 +1,75 @@
+using System;
+using System.Threading.Tasks;
+
+namespace GuessTheNumber
+{
+    public class Counter
+    {
+        public string Name;
+        public int Count;
+
+        public Counter(string name, int count)
+        {
+            Name = name;
+            Count = count;
+        }
+    }
+}
+using GuessTheNumber;
+using System.IO;
+Counter count = new Counter("", 0);
+Random random = new Random();
+int k = random.Next(1, 12);
+int st = 0;
+int stchet = 0;
+string path = @"C:\Users\student\Desktop\Введение счета.txt";
+Console.WriteLine("Добро пожаловать в игру 'Угадай число'!");
+Console.WriteLine();
+Console.WriteLine("Введите имя :");
+count.Name = Console.ReadLine();
+bool isdone = false;
+bool playagain = false;
+do
+{
+    for (int i = 0; i < 20; i++)
+    {
+        Console.WriteLine("Введите число :");
+        count.Count = Convert.ToInt32(Console.ReadLine());
+        if (count.Count == k)
+        {
+            Console.WriteLine("Угадали");
+            isdone = true;
+            st++;
+            break;
+        }
+        if (count.Count < k || count.Count > k && count.Count != k)
+        {
+            Console.WriteLine("Не угадал, попробуйте еще раз");
+            
+        }
+        stchet++;
+    }
+    if (isdone)
+    {
+        Console.WriteLine();
+        Console.WriteLine("{0} угадал(ла) число с {1} попытки", count.Name,stchet + 1);
+        Console.WriteLine();
+        Console.WriteLine("Спасибо за игру!");
+        double interest = ((st*100)/20);
+        Console.WriteLine("Процент выйгрыша равен {0}%", interest);
+        StreamWriter f = new StreamWriter(path);
+        f.WriteLine("Игрок - {0}",count.Name);
+        f.WriteLine("Кол-во попыток {0}",stchet+1);
+        f.WriteLine("Процент выигрыша: {0}%", interest);
+        f.Close();
+    }
+    else
+    {
+        Console.WriteLine();
+        Console.WriteLine("К сожелению {0} не смог(ла) угадать число :(", count.Name);
+        Console.WriteLine();
+        Console.WriteLine("Хотите сыграть еще раз? (y/n)");
+        playagain = Console.ReadLine() == "y" ? true : false;
+    }
+}
+while (playagain);
