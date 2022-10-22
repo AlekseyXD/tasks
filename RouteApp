@@ -1,0 +1,59 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Route
+{
+    class RouteApp
+    {
+        public string PointStart;
+        public string PointEnd;
+        public int Number;
+        public RouteApp(string a, string b, int n)
+        {
+            PointStart = a;
+            PointEnd = b;
+            Number = n;
+        }
+    }
+}
+
+using Route;
+
+        var routes = new RouteApp[3];
+
+        for (int i = 0; i < routes.Length; i++)
+        {
+            Console.WriteLine("Введите маршрут {0}", i);
+            Console.Write("Номер маршрута: ");
+            var Number = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Неверный ввод!\nНомер маршрута: ");
+            Console.WriteLine();
+            Console.Write(" Начальная точка: ");
+            var PointStart = Console.ReadLine();
+            Console.WriteLine();
+            Console.Write(" Конечная точка: ");
+            var PointEnd = Console.ReadLine();
+            routes[i] = new RouteApp(PointStart, PointEnd, Number);
+            Console.WriteLine();
+        }
+
+        while (true)
+        {
+            Console.Write("Введите номер маршрутка для запроса информации: ");
+            var infoRouteNumber = Convert.ToInt32(Console.ReadLine());
+            try
+            {
+                var findRoute = routes.First(x => x.Number == infoRouteNumber);
+                Console.WriteLine("Маршрут № {0}. Начальная точка: {1}. Коннечная точка: {2}", findRoute.Number, findRoute.PointStart, findRoute.PointEnd);
+            }
+            catch(InvalidOperationException)
+            {
+
+                Console.WriteLine("Маршрут по данному номеру не найден");
+            }
+
+
+        }
