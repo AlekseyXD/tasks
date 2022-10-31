@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\bin\Debug\net6.0\ZodiacDelegate.exe
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\bin\Debug\net6.0\ZodiacDelegate.deps.json
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\bin\Debug\net6.0\ZodiacDelegate.runtimeconfig.json
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\bin\Debug\net6.0\ZodiacDelegate.dll
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\bin\Debug\net6.0\ZodiacDelegate.pdb
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.AssemblyInfo.cs
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.dll
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\refint\ZodiacDelegate.dll
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.pdb
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ZodiacDelegate.genruntimeconfig.cache
+C:\Users\User\Desktop\Программы VC\ZodiacDelegate\ZodiacDelegate\obj\Debug\net6.0\ref\ZodiacDelegate.dll
