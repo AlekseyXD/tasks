@@ -1,0 +1,15 @@
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.csproj.AssemblyReference.cache
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.AssemblyInfoInputs.cache
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.AssemblyInfo.cs
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.csproj.CoreCompileInputs.cache
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\bin\Debug\net6.0\Сalculator.exe
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\bin\Debug\net6.0\Сalculator.deps.json
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\bin\Debug\net6.0\Сalculator.runtimeconfig.json
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\bin\Debug\net6.0\Сalculator.dll
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\bin\Debug\net6.0\Сalculator.pdb
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.dll
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\refint\Сalculator.dll
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.pdb
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\Сalculator.genruntimeconfig.cache
+C:\Users\student\Documents\ISP20\Сalculator\Сalculator\obj\Debug\net6.0\ref\Сalculator.dll
